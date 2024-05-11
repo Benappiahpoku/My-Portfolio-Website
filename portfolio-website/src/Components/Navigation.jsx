@@ -1,68 +1,116 @@
-import React, { useState } from "react";
-import "./Navigation.css"; // Import CSS for styling
+import { useState } from "react";
+import { Link, animateScroll as scroll} from "react-scroll";
+import "./Navigation.css";
 
+import logo from "../img/logo.png";
 
+function Navigation() {
+  const [isActive, setIsActive] = useState(false);
 
-//images
-import logo from "../img/logo.png"; // adjust the path as needed
+  const toggleActiveClass = () => {
+    setIsActive(!isActive);
+  };
 
-
-//icons
-import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
-import { FaBars, FaTimes } from "react-icons/fa";
-
-const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
+  const removeActive = () => {
+    setIsActive(false);
   };
 
   return (
-    <nav>
-      <div className="navigation">
-        <div className="navigation__logo">
-          <img src={logo} alt="logo" />
+    <div>
+      <nav>
+        <div className="navbar">
+          <div className="navLogo">
+            <button
+              style={{
+                cursor: "pointer",
+                border: "none",
+                background: "none",
+                padding: "0",
+                margin: "0",
+                outline: "none",
+              }}
+              onClick={() => scroll.scrollToTop({ duration: 1000 })}
+              className="logo"
+            >
+              <img src={logo} alt="logo" />
+            </button>
+          </div>
+          <div className="menu-items">
+            <ul className={`navMenu ${isActive ? "active" : ""}`}>
+              <li onClick={removeActive}>
+                <Link
+                  to="portfolio"
+                  smooth={true}
+                  duration={1000}
+                  className="navLink"
+                  spy={true}
+                  activeClass="active"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li onClick={removeActive}>
+                <Link
+                  to="skills"
+                  smooth={true}
+                  duration={1000}
+                  className="navLink"
+                  spy={true}
+                  activeClass="active"
+                >
+                  Skills
+                </Link>
+              </li>
+              <li onClick={removeActive}>
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={1000}
+                  className="navLink"
+                  spy={true}
+                  activeClass="active"
+                >
+                  About
+                </Link>
+              </li>
+              <li onClick={removeActive}>
+                <Link
+                  to="testimonials"
+                  smooth={true}
+                  duration={1000}
+                  className="navLink"
+                  spy={true}
+                  activeClass="active"
+                >
+                  Testimonials
+                </Link>
+              </li>
+              <li onClick={removeActive}>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={1000}
+                  className="navLink"
+                  spy={true}
+                  activeClass="active"
+                >
+                  Let's chat
+                </Link>
+              </li>
+            </ul>
+            <div
+              className={`hamburger ${isActive ? "active" : ""}`}
+              onClick={toggleActiveClass}
+            >
+              <span className="bar"></span>
+              <span className="bar"></span>
+              <span className="bar"></span>
+            </div>
+          </div>
         </div>
-        <div className={`navigation__menu ${isOpen ? "active" : ""}`}>
-          <ul>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="navigation__dropdown">
-              <a href=" ">Explore</a>
-              <ul className="navigation__submenu">
-                <li>
-                  <a href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#blog">Blog</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#clients">Clients</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <button href="#contact">
-                Let's Chat{" "}
-                <IoChatbubbleEllipsesOutline style={{ fontWeight: "bold" }} />
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div className="navigation__toggle" onClick={toggleMenu}>
-          {isOpen ? <FaTimes /> : <FaBars />}
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
-};
+}
 
 export default Navigation;

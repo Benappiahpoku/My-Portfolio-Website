@@ -1,0 +1,46 @@
+.portfolio {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.portfolio-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ebf3fa;
+  box-shadow: 10px 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.card-header,
+.card-title,
+.card-footer {
+  margin-bottom: 10px;
+}
+
+.card-main img {
+ grid-column: 1 / 2;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  border: solid 3px #ce2952;
+}
+
+.card-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.card-main div {
+  flex: 1;
+  word-wrap: break-word;
+}

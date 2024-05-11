@@ -1,0 +1,81 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form .row {
+  display: flex;
+  gap: 10px;
+}
+
+form .row input {
+  flex: 1;
+}
+
+form textarea {
+  height: 100px;
+  border:none;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #ce2952;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: white;
+  color: #cf647f;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+.column .row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+

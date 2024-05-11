@@ -1,51 +1,60 @@
-// Create a single page application with the following sections
+// This is the main file of the project. It contains the navigation, hero, portfolio, skillset, about, testimonials, contact and footer components.
+
+import React from "react";
+import "./reset.css";
 import "./App.css";
+import Hero from "./Components/Hero";
 import Navigation from "./Components/Navigation";
+import Portfolio from "./Components/Portfolio";
+import SkillSet from "./Components/SkillSet";
+import About from "./Components/About";
+import Testimonials from "./Components/Testimonials";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 // import icon from './img/icon.png'; // adjust the path as needed
 
-
 function App() {
-
-  
   return (
     <>
       <div>
-        {/* Navigation */}
-        <Navigation />
-        <div className="container">
-          <header>{/* Hero */}</header>
+        <section id="home">
+          {/* Navigation */}
+          <Navigation />
+        </section>
+        <div>
+          <header>
+            {/* Hero */}
+            <Hero />
+          </header>
 
           {/* Main section */}
-          <main>
+          <main className="container">
             {/* Portfolio */}
-            <section>
-              <h3> Hello World</h3>
-    
+            <section id="portfolio">
+              <Portfolio />
             </section>
             {/* Skills Set */}
-            <section>
-              <h3> Hello World</h3>
+            <section id="skills">
+              <SkillSet />
             </section>
+
             {/* About */}
-            <section>
-              <h3> Hello World</h3>
+            <section id="about">
+              <About />
             </section>
             {/* Testimonials */}
-            <section>
-              <h3> Hello World</h3>
+            <section id="testimonials">
+              <Testimonials />
             </section>
-            {/* Blog */}
-            <section>
-              <h3> Hello World</h3>
-            </section>
+
             {/* Contact */}
-            <section>
-              <h3> Hello World</h3>
+            <section id="contact">
+              <Contact />
             </section>
           </main>
         </div>
         <footer>
-          <p> &copy; 2021</p>
+          <Footer />
         </footer>
       </div>
     </>
