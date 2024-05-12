@@ -44,3 +44,20 @@
   flex: 1;
   word-wrap: break-word;
 }
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+  .portfolio-content {
+    flex-direction: column;
+  }
+
+  .card-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-main img {
+    width: 100%;
+  }
+}

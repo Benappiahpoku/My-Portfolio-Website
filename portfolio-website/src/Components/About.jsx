@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../img/HeroImage.webp";
-import "./AboutMe.css";
+import "./About.css";
 import Title from "./Title";
 
 function AboutMe() {

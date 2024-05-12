@@ -67,7 +67,7 @@ function Contact() {
           </form>
         </div>
         <div className="column">
-          <h2 style={{ fontSize: "3.2rem", color: "#ce2952" }}>Get in touch</h2>
+          <h2 style={{ fontSize: "3.2rem", color: "#ce2952", textAlign:"center"}}>Get in touch</h2>
           <div
             className="row"
             style={{ alignItems: "center", marginBottom: "10px" }}

@@ -54,3 +54,10 @@ h1,h2 {
 font-weight: bold;
 color:#ce2952;
 }
+
+@media screen and (max-width: 780px) {
+  p {
+    text-align: center;
+  }
+ 
+}

@@ -27,3 +27,23 @@
     display: flex;
     flex-direction: column;
 }
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+    .skillset {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        font-size: 3em;
+    }
+}

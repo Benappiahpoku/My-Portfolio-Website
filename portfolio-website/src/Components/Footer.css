@@ -30,3 +30,17 @@
     font-size: 0.8em;
     color: #333;
 }
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        flex: 1;
+        margin: 10px 0;
+    }
+}
