@@ -61,3 +61,11 @@ color:#ce2952;
   }
  
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 780px) {
+  .container {
+    padding: 0 20px;
+  }
+}
