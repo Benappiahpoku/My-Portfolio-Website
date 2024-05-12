@@ -56,6 +56,9 @@
   border-color: white;
   
 }
+.hero-text .hero-buttons {
+  display: flex;
+}
 
  @media screen and (max-width: 780px){
 
@@ -71,10 +74,7 @@
     margin-right: 0; 
     margin-left: 0;
   }
-  .hero-text button {
-    margin-right:0;
-    margin-top:20px;
-  }
+
   .hero-image {
     padding: 10px;
   }
@@ -86,4 +86,13 @@
     border-width: 5px;
     border-color: white;
   }
+    .hero-text .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-text .hero-buttons button {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
  }

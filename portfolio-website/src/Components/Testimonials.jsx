@@ -11,7 +11,7 @@ function Testimonials() {
       <Title ptext="Testimonials" h2text="What Our Clients Say" />
       <div className="row">
         <TestimonialCard
-          companyName="Naachiaa Construction Company"
+          companyName="Naachiaa Construction "
           testimonialText="Working with Benjamin on our nature construction project was a fantastic experience. He listened attentively and delivered precisely what we envisioned for our website. His effectiveness and dedication truly stood out, making the collaboration seamless and enjoyable. I highly recommend him for any web development endeavors."
           reviewerName="Daniel Adjei"
           iconSrc={Daniel}
