@@ -66,8 +66,10 @@
     align-items: center;
   }
   .hero-text {
-    padding: 20px;
+
     text-align: center;
+    margin-right: 0; 
+    margin-left: 0;
   }
   .hero-text button {
     margin-right:0;

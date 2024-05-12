@@ -55,9 +55,14 @@
   .card-main {
     display: flex;
     flex-direction: column;
+    gap: 0px;
+    width: 100%;
   }
 
   .card-main img {
+    width: 100%;
+  }
+  .card{
     width: 100%;
   }
 }
