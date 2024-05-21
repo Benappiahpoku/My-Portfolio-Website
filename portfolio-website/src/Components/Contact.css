@@ -104,6 +104,11 @@ input {
 
   form .row {
     flex-direction: column;
+    justify-content: center;
+ 
+  }
+  .row-move {
+  
   }
 
   form button {

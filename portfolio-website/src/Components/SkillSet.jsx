@@ -24,24 +24,28 @@ function SkillSet() {
             Icon={FaHtml5}
             skillLevel="Expert"
             color="#e34c26"
+            skillYears="15 years"
           />
           <Skill
             skillName="CSS"
             Icon={FaCss3Alt}
             skillLevel="Expert"
             color="#264de4"
+            skillYears="15 years"
           />
           <Skill
             skillName="JavaScript"
             Icon={FaJs}
             skillLevel="Intermediate"
             color="#EDBA36"
+            skillYears="10 years"
           />
           <Skill
             skillName="React"
             Icon={FaReact}
-            skillLevel="Beginner"
+            skillLevel="Intermediate"
             color="#6D8DCB"
+            skillYears="5 years"
           />
         </div>
         <div className="row">
@@ -50,24 +54,28 @@ function SkillSet() {
             Icon={FaNodeJs}
             skillLevel="Intermediate"
             color="#68A063"
+            skillYears="5 years"
           />
           <Skill
             skillName="Express"
             Icon={FaServer}
             skillLevel="Beginner"
             color="#444343"
+            skillYears="4 years"
           />
           <Skill
             skillName="MongoDB"
             Icon={FaDatabase}
             skillLevel="Beginner"
             color="#00674A"
+            skillYears="3 years"
           />
           <Skill
             skillName="Git"
             Icon={FaGitAlt}
             skillLevel="Expert"
             color="#F1502F"
+            skillYears="15 years"
           />
         </div>
       </div>
@@ -75,16 +83,17 @@ function SkillSet() {
   );
 }
 
-function Skill({ skillName, Icon, skillLevel, color }) {
+function Skill({ skillName, Icon, skillLevel, skillYears,color }) {
   return (
     <div className="column">
       <div className="skill">
         <Icon className="icon" style={{ color: color }} />
         <div className="text" style={{ color: color }}>
-          <h4>{skillName}</h4>
-          <p>
-            {skillLevel} <br></br> {skillName}
-          </p>
+          <h4 style={{ lineHeight: "1.5rem" }}>{skillName}</h4>
+          <span style={{ lineHeight: "1.5rem" }}>
+            {skillLevel} <br></br>
+            {skillYears}
+          </span>
         </div>
       </div>
     </div>

@@ -24,6 +24,9 @@ function Portfolio() {
                 flexibility to input any message, and the app will spontaneously
                 remind them of it at various points throughout the day.
               </p>
+              <div className="card-main-button-container">
+                <button>Learn More</button>
+              </div>
             </div>
             <div>
               <img src={calmFlow} alt="Card" />
@@ -38,6 +41,9 @@ function Portfolio() {
                 A React Electron Pomodoro Flower app that assists in maintaining
                 productivity while cultivating virtual flowers on your macOS.
               </p>
+              <div className="card-main-button-container">
+                <button>Learn More</button>
+              </div>
             </div>
             <div>
               <img src={cardImage} alt="Card" />
@@ -57,6 +63,9 @@ function Portfolio() {
                 mindset, fostering creativity and focus as you tackle your tasks
                 with flair
               </p>
+              <div className="card-main-button-container">
+                <button>Learn More</button>
+              </div>
             </div>
             <div>
               <img src={Kalculator} alt="Card" />
@@ -71,6 +80,9 @@ function Portfolio() {
                 A React Electron typing tool designed to enhance my speed by
                 practicing with the most commonly used English words.
               </p>
+              <div className="card-main-button-container">
+                <button>Learn More</button>
+              </div>
             </div>
             <div>
               <img src={Typing} alt="Card" />

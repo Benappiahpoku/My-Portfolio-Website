@@ -22,6 +22,24 @@
   border-color: white;
 }
 
+/* Add some style for the new icons and links */
+.column a {
+  color: #333; /* Change this to your preferred color */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.column a:hover {
+  color: #666; /* Change this to your preferred hover color */
+}
+
+.about-buttons {
+  display: flex;
+  gap: 20px;
+  margin:5%;
+  font-weight: bold;
+}
+
 /* media queries */
 
 @media screen and (max-width: 780px) {
@@ -45,4 +63,12 @@
   h3 {
     text-align: center;
   }
+  .about-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 20px;
+  margin:15%;
+  font-weight: bold;
+}
 }

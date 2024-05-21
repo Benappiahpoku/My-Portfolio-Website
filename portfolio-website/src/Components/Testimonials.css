@@ -36,7 +36,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  background: linear-gradient(to right, #cf647f, rgb(241, 203, 203));
+  /* background: linear-gradient(to right, #cf647f, rgb(241, 203, 203)); */
   padding: 10px;
 }
 

@@ -23,10 +23,7 @@ function Contact() {
       </div>
       <div className="columns">
         <div className="column">
-          <form
-            action="https://formspree.io/f/xayrkevn"
-            method="POST"
-          >
+          <form action="https://formspree.io/f/xayrkevn" method="POST">
             <div className="row">
               <input
                 type="text"
@@ -67,29 +64,59 @@ function Contact() {
           </form>
         </div>
         <div className="column">
-          <h2 style={{ fontSize: "3.2rem", color: "#ce2952", textAlign:"center"}}>Get in touch</h2>
-          <div
-            className="row"
-            style={{ alignItems: "center", marginBottom: "10px" }}
+          <h2
+            style={{
+              fontSize: "3.2rem",
+              color: "#ce2952",
+              textAlign: "center",
+            }}
           >
-            <FaEnvelope style={{ fontSize: "3.0rem", marginRight: "10px" }} />
-            <span>hello@benappiahpoku.io</span>
-          </div>
+            Get in touch
+          </h2>
           <div
-            className="row"
-            style={{ alignItems: "center", marginBottom: "10px" }}
+            className="row-move"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
           >
-            <FaPhone style={{ fontSize: "3.0rem", marginRight: "10px" }} />
-            <span>+233 244314463</span>
-          </div>
-          <div
-            className="row"
-            style={{ alignItems: "center", marginBottom: "10px" }}
-          >
-            <FaMapMarkerAlt
-              style={{ fontSize: "3.0rem", marginRight: "10px" }}
-            />
-            <span>Accra- Ghana</span>
+            <div
+              className="row"
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                marginBottom: "10px",
+              }}
+            >
+              <FaEnvelope style={{ fontSize: "2.0rem", marginRight: "10px" }} />
+              <span>bappiahpoku@gmail.com</span>
+            </div>
+            <div
+              className="row"
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                marginBottom: "10px",
+              }}
+            >
+              <FaPhone style={{ fontSize: "2.0rem", marginRight: "10px" }} />
+              <span>+233 244314463</span>
+            </div>
+            <div
+              className="row"
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                marginBottom: "10px",
+              }}
+            >
+              <FaMapMarkerAlt
+                style={{ fontSize: "2.0rem", marginRight: "10px" }}
+              />
+              <span>Accra- Ghana</span>
+            </div>
           </div>
         </div>
       </div>

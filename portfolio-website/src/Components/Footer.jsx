@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  FaFacebook,
   FaTwitter,
-  FaInstagram,
-  FaLinkedin,
   FaGithub,
-  FaPinterest,
+  // FaInstagram,
+  // FaLinkedin,
+  // FaPinterest,
+  // FaFacebook,
 } from "react-icons/fa";
 import "./Footer.css";
 
@@ -17,29 +17,29 @@ function Footer() {
       <div className="columns">
         <div className="column">
           <h3>Contact Us</h3>
-          <p>Email: hello@benappiahpoku.io</p>
+          <p>Email:bappiahpoku@gmail.com</p>
           <p>Phone: +233 244314463</p>
         </div>
         <div className="column">
           <h3>Follow Us</h3>
-          <a href="#b">
+          {/* <a href="#b">
             <FaFacebook />
-          </a>
-          <a href="#b">
+          </a> */}
+          <a href="https://twitter.com/bappiahpoku">
             <FaTwitter />
           </a>
-          <a href="#b">
+          {/* <a href="#b">
             <FaInstagram />
-          </a>
-          <a href="#b">
+          </a> */}
+          {/* <a href="#b">
             <FaLinkedin />
-          </a>
-          <a href="#b">
+          </a> */}
+          <a href="https://github.com/Benappiahpoku">
             <FaGithub />
           </a>
-          <a href="#b">
+          {/* <a href="#b">
             <FaPinterest />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="copyright">

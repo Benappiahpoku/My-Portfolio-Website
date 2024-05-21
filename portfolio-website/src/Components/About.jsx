@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaDownload } from "react-icons/fa";
 import heroImage from "../img/HeroImage.webp";
 import "./About.css";
 import Title from "./Title";
@@ -24,6 +25,17 @@ function AboutMe() {
               and exploring how technology can address African challenges with
               homegrown solutions.
             </p>
+            <div className="about-buttons">
+              <div>
+                <a href="https://github.com/Benappiahpoku">GitHub</a>
+                <FaGithub style={{fontSize:"1.2rem"}} />{" "}
+              </div>
+              <div>
+                <a href="/downloads/Benjamin Appiah-Poku CV Rev06.pdf" download>
+                  Download CV <FaDownload />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

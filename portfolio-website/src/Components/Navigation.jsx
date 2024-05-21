@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, animateScroll as scroll} from "react-scroll";
+import { FaPhone } from "react-icons/fa";
 import "./Navigation.css";
 
 import logo from "../img/logo.png";
@@ -86,16 +87,9 @@ function Navigation() {
                 </Link>
               </li>
               <li onClick={removeActive}>
-                <Link
-                  to="contact"
-                  smooth={true}
-                  duration={1000}
-                  className="navLink"
-                  spy={true}
-                  activeClass="active"
-                >
-                  Let's chat
-                </Link>
+                <a href="tel:+233244314463" className="navLink">
+                  <FaPhone style={{}} />
+                </a>
               </li>
             </ul>
             <div
