@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Website/static/css/main.667b0548.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.e90c6f75.js",
+    "main.css": "/My-Portfolio-Website/static/css/main.5f980823.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.a4149c27.js",
     "static/media/Typing.png": "/My-Portfolio-Website/static/media/Typing.92dea7f2ec445d6b39af.png",
     "static/media/cardImage.png": "/My-Portfolio-Website/static/media/cardImage.f3c6c3178b1e8bb87873.png",
     "static/media/calmflow.png": "/My-Portfolio-Website/static/media/calmflow.88e3d79c747324a9419c.png",
-    "static/media/daniel.jpg": "/My-Portfolio-Website/static/media/daniel.f03a3706972e5c45c7e0.jpg",
     "static/media/Kalculator.png": "/My-Portfolio-Website/static/media/Kalculator.421d80604bb368d351a1.png",
-    "static/media/jerry.jpg": "/My-Portfolio-Website/static/media/jerry.38c95558a2dad4002fa8.jpg",
     "static/media/HeroImage.webp": "/My-Portfolio-Website/static/media/HeroImage.5ef4f4dcc73c442f4c5a.webp",
     "static/media/logo.png": "/My-Portfolio-Website/static/media/logo.9701def975770cd8549b.png",
     "index.html": "/My-Portfolio-Website/index.html",
-    "main.667b0548.css.map": "/My-Portfolio-Website/static/css/main.667b0548.css.map",
-    "main.e90c6f75.js.map": "/My-Portfolio-Website/static/js/main.e90c6f75.js.map"
+    "main.5f980823.css.map": "/My-Portfolio-Website/static/css/main.5f980823.css.map",
+    "main.a4149c27.js.map": "/My-Portfolio-Website/static/js/main.a4149c27.js.map"
   },
   "entrypoints": [
-    "static/css/main.667b0548.css",
-    "static/js/main.e90c6f75.js"
+    "static/css/main.5f980823.css",
+    "static/js/main.a4149c27.js"
   ]
 }
