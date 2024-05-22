@@ -17,8 +17,13 @@ function Footer() {
       <div className="columns">
         <div className="column">
           <h3>Contact Us</h3>
-          <p>Email:bappiahpoku@gmail.com</p>
-          <p>Phone: +233 244314463</p>
+          <p>
+            Email:{" "}
+            <a href="mailto:bappiahpoku@gmail.com">bappiahpoku@gmail.com</a>
+          </p>
+          <p>
+            Phone: <a href="tel:+233244314463">+233 244314463</a>
+          </p>
         </div>
         <div className="column">
           <h3>Follow Us</h3>
@@ -26,7 +31,7 @@ function Footer() {
             <FaFacebook />
           </a> */}
           <a href="https://twitter.com/bappiahpoku">
-            <FaTwitter />
+            <FaTwitter style={{ fontSize: "1.5rem" }} />
           </a>
           {/* <a href="#b">
             <FaInstagram />
@@ -35,7 +40,7 @@ function Footer() {
             <FaLinkedin />
           </a> */}
           <a href="https://github.com/Benappiahpoku">
-            <FaGithub />
+            <FaGithub style={{ fontSize: "1.5rem" }} />
           </a>
           {/* <a href="#b">
             <FaPinterest />

@@ -25,7 +25,9 @@ function Portfolio() {
                 remind them of it at various points throughout the day.
               </p>
               <div className="card-main-button-container">
-                <button>Learn More</button>
+                <a href="https://github.com/Benappiahpoku/Calm-Flow-Relaxing-App">
+                  Learn More
+                </a>
               </div>
             </div>
             <div>
@@ -42,7 +44,9 @@ function Portfolio() {
                 productivity while cultivating virtual flowers on your macOS.
               </p>
               <div className="card-main-button-container">
-                <button>Learn More</button>
+                <a href="https://github.com/Benappiahpoku/Pomodoro-Flower-React-Electron-App">
+                  Learn More
+                </a>
               </div>
             </div>
             <div>
@@ -64,7 +68,9 @@ function Portfolio() {
                 with flair
               </p>
               <div className="card-main-button-container">
-                <button>Learn More</button>
+                <a href="https://github.com/Benappiahpoku/Kalculator-React-Electron-App">
+                  Learn More
+                </a>
               </div>
             </div>
             <div>
@@ -81,7 +87,9 @@ function Portfolio() {
                 practicing with the most commonly used English words.
               </p>
               <div className="card-main-button-container">
-                <button>Learn More</button>
+                <a href="https://github.com/Benappiahpoku/Typing-Exercise-App">
+                  Learn More
+                </a>
               </div>
             </div>
             <div>

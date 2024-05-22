@@ -91,7 +91,9 @@ function Contact() {
               }}
             >
               <FaEnvelope style={{ fontSize: "2.0rem", marginRight: "10px" }} />
-              <span>bappiahpoku@gmail.com</span>
+              <span>
+                <a href="mailto:bappiahpoku@gmail.com">bappiahpoku@gmail.com</a>
+              </span>
             </div>
             <div
               className="row"
@@ -102,7 +104,9 @@ function Contact() {
               }}
             >
               <FaPhone style={{ fontSize: "2.0rem", marginRight: "10px" }} />
-              <span>+233 244314463</span>
+              <span>
+                <a href="tel:+233244314463">+233 244314463</a>
+              </span>
             </div>
             <div
               className="row"
@@ -115,7 +119,15 @@ function Contact() {
               <FaMapMarkerAlt
                 style={{ fontSize: "2.0rem", marginRight: "10px" }}
               />
-              <span>Accra- Ghana</span>
+              <span>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Accra+Ghana"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Accra- Ghana
+                </a>
+              </span>
             </div>
           </div>
         </div>

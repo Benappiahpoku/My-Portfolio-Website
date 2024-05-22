@@ -30,7 +30,7 @@
 }
 
 .column a:hover {
-  color: #666; /* Change this to your preferred hover color */
+  color: #ce2952;/* Change this to your preferred hover color */
 }
 
 .about-buttons {
@@ -39,6 +39,8 @@
   margin:5%;
   font-weight: bold;
 }
+
+
 
 /* media queries */
 

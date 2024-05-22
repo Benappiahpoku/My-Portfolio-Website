@@ -27,12 +27,19 @@ function AboutMe() {
             </p>
             <div className="about-buttons">
               <div>
-                <a href="https://github.com/Benappiahpoku">GitHub</a>
-                <FaGithub style={{fontSize:"1.2rem"}} />{" "}
+                <a href="https://github.com/Benappiahpoku">
+                  GitHub
+                  <FaGithub
+                    style={{ fontSize: "1.2rem", marginLeft: "8px" }}
+                  />{" "}
+                </a>
               </div>
               <div>
                 <a href="/downloads/Benjamin Appiah-Poku CV Rev06.pdf" download>
-                  Download CV <FaDownload />
+                  Download CV{" "}
+                  <FaDownload
+                    style={{marginLeft: "8px" }}
+                  />
                 </a>
               </div>
             </div>
