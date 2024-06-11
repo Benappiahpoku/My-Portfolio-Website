@@ -103,7 +103,7 @@
   h2 {
     text-align: center;
   }
-  .card-main button {
+  .card-main-button-container a {
   background-color: #ce2952;
   color: white;
   padding: 10px;
